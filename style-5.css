@@ -1,0 +1,30 @@
+#div3 {
+    /* position: relative; */
+    /* left: 70px; */
+    width:33%;
+    height:33%;
+    background :rgba(248, 248, 127, 0.925);
+    border: 8px solid rgb(58, 57, 21);
+  }
+#div2 {
+    /* position: relative; */
+    /* left: 70px; */
+    width:33%;
+    height:33%;
+    background :rgba(248, 248, 127, 0.925);
+    border: 8px solid rgb(58, 57, 21);
+  }
+  #div4 {
+    position: absolute;
+    left: 238px;
+    top:8px;
+    width:416px;
+    height:316px;
+    background :rgba(226, 43, 43, 0.925);
+    border: 8px solid rgb(58, 57, 21);
+  }
+  #div1 {
+    height: 400px;
+    width: 400px;
+    background-color: powderblue;
+  }

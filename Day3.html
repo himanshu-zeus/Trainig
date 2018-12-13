@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="style-3.css">
+	  <script src="day-3.js"></script>
+      <title>Employee Input form</title>
+   </head>
+   <body>
+       <form id="form1" action="" method="POST">
+            <table>
+                <tr>
+                    <th colspan="2">Add Employee</th>
+                </tr>
+                <tr>
+                    <td>First Name</td>
+                    <td><input type="text" id="fname" maxlength="32"></td>
+                </tr>
+                <tr>
+                        <td>email</td>
+                        <td><input type="email" hidden id="lname"></td>
+                </tr>
+                <tr>
+                        <td>Gender</td>
+                        <td><input type="radio" name="gender" id="male" value="male" checked > Male
+                            <input type="radio" name="gender" id="female" value="female"> Female
+                        </td>
+                </tr>
+                <tr>
+                        <td>Marital Status</td>
+                        <td><input type="radio" name="gender" id="married" value="married" > Married
+                            <input type="radio" name="gender" id="unmarrried" value="unmarried"> Unmarried
+                        </td>
+                </tr>
+                <tr>
+                        <td>Name of spouse</td>
+                        <td><input type="text" id="spouse"></td>
+                </tr>
+                <tr>
+                        <td>Other Details</td>
+                        <td><input type="text" id="details"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                    <input type="checkbox" id="cb1" checked >
+                    I accept
+                    <a href="t&c" >Terms and conditions</a>
+                    </td>
+                </tr> 
+                <tr>
+                    <td>
+                        <input type="reset" id="reset" value="RESET" >
+                    </td>
+                    <td>
+                        <input type="button" id="save" value="SAVE">
+                    </td>
+                </tr>
+            </table>
+       </form>
+   </body>
+</html>
+      

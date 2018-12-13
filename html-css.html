@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="styles.css">
+	  <script src="myScript.js"></script>
+      <title>Page Title</title>
+   </head>
+   <body>
+      <h1 id="hd1">My first web page</h1>
+      <h3 id="hd3">What this is</h3>
+      <p>
+         Welcome to <i>my first webpage</i>. I created this webpage without assistance of a webpage editor.
+         Just my little text editor and a keen 
+         <strong><i>UNDERSTANDING OF HTML.</i></strong>
+      </p>
+      <h3 id="hd2">Why this is</h3>
+      <ul>
+         <li>To learn HTML</li>
+         <li>
+            List element
+            <ol>
+               <li>Home</li>
+               <li>FAQ</li>
+               <li>Contact</li>
+               <li>About</li>
+            </ol>
+         </li>
+         <li>Here i have created ordered and unordered list</li>
+      </ul>
+      <h3 id="hd2">ZeusLearning.com</h3>
+      <p><a href="https://www.zeuslearning.com" target="_blank">This link will open zeuslearning.com in new tab</a></p>
+      <h3 id="hd2">On Click of following image navigate to Google.com</h3>
+      <a href="https://www.google.com" target="_blank">
+      <img id="borderimg"src="download.png"  height="100" width="200" alt="google.com" >
+      </a>
+      <div id="div1">
+         <p class="p1"><b>Some random table</b></p>
+      </div>
+      <table >
+         <tr>
+            <td>Row 1,cell 1</td>
+            <td>Row 1,cell 2</td>
+            <td>Row 1,cell 3</td>
+         </tr>
+         <tr>
+            <td>Row 2,cell 1</td>
+            <td>Row 2,cell 2</td>
+            <td>Row 2,cell 3</td>
+         </tr>
+         <tr>
+            <td>Row 3,cell 1</td>
+            <td>Row 3,cell 2</td>
+            <td>Row 3,cell 3</td>
+         </tr>
+         <tr>
+            <td>Row 4,cell 1</td>
+            <td>Row 4,cell 2</td>
+            <td>Row 4,cell 3</td>
+         </tr>
+      </table>
+      <div id="div1">
+         <p class="p1"><b>Some random form</b></p>
+      </div>
+      <form id="form1" >
+         <p>
+            <b><i><strong>NOTE:</strong> </i></b>It looks the part,but won't do a thing. 
+         </p>
+         Name:<br> <input type="text" id="name" name="fname" placeholder="Your name"><br><br>
+         Comments: <br>
+         <br>
+         <textarea rows="10" id="comment" cols="20" placeholder="Your comments"></textarea>
+         <br>
+         <br>
+         <p>
+            Are you:<br>
+            <input type="radio" name="gender" id="male" value="male" > Male<br>
+            <input type="radio" name="gender" id="female" value="female"> Female<br>
+            <input type="submit" value="Submit Query" onclick="return myFunction()">
+         </p>
+      </form>
+   </body>
+</html>

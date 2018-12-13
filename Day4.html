@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="style-3.css">
+	  <script src="day-3.js"></script>
+      <title>Employee Input form</title>
+   </head>
+   <body>
+       <form id="form1" action="" method="POST">
+            <table>
+                <tr>
+                    <th colspan="2">Add Employee</th>
+                </tr>
+                <tr>
+                    <td>First Name</td>
+                    <td><input type="text" id="fname" maxlength="32"></td>
+                </tr>
+                <tr>
+                        <td>Last Name</td>
+                        <td><input type="text" id="fname" maxlength="32"></td>
+                    </tr>
+                <tr>
+                        <td>email</td>
+                        <td><input type="email" hidden id="lname"></td>
+                </tr>
+                <tr>
+                        <td>Gender</td>
+                        <td><input type="radio" name="gender" id="male" value="male" checked > Male
+                            <input type="radio" name="gender" id="female" value="female"> Female
+                        </td>
+                </tr>
+                <tr>
+                        <td>Marital Status</td>
+                        <td><input type="radio" name="gender" id="married" value="married" > Married
+                            <input type="radio" name="gender" id="unmarrried" value="unmarried"> Unmarried
+                        </td>
+                </tr>
+                <tr>
+                        <td>Name of spouse</td>
+                        <td><input type="text" id="spouse"></td>
+                </tr>
+                <tr>
+                        <td>Other Details</td>
+                        <td><input type="text" disabled id="details"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                    <input type="checkbox" id="cb1" checked >
+                    I accept
+                    <a href="t&c" >Terms and conditions</a>
+                    </td>
+                </tr> 
+                <tr>
+                    <td>
+                        <input type="reset" id="reset" value="RESET" >
+                    </td>
+                    <td>
+                        <input type="button" id="save" value="SAVE">
+                    </td>
+                </tr>
+            </table>
+       </form>
+       <table>
+           <tr>
+               <td rowspan="2">Name of train</td>
+               <td rowspan="2">Place</td>
+               <td rowspan="2">Destination</td>
+               <td rowspan="2">Train No.</td>
+               <td colspan="2">Time</td>
+               <td rowspan="2">Fair</td>
+           </tr>          
+            <tr>
+                        <td>Arrival</td>
+                        <td>Departure</td>
+            </tr>
+       </table>
+       <table>
+            <tr>
+                <td >1</td>
+                <td >2</td>
+                <td >3</td>
+                <td >4</td>
+            </tr>          
+            <tr>
+                    <td >5</td>
+                    <td rowspan="2" colspan="2">13</td>
+                    <td >6</td>
+            </tr>   
+            <tr>
+                    <td >7</td>
+                    <td >8</td>
+            </tr>   
+            <tr>
+                    <td >9</td>
+                    <td >10</td>
+                    <td >11</td>
+                    <td >12</td>
+            </tr>   
+        </table>
+        <table>
+                <tr>
+                    <td rowspan="2">Weather</td>
+                    <th >DELHI</th>
+                    <th >MUMBAI</th>
+                </tr>          
+                 <tr>
+                             <td>40</td>
+                             <td>35</td>
+                 </tr>
+        </table>
+        <table>
+                    <tr>
+                        <td colspan="4" >Heading</td>
+                        
+                    </tr>          
+                     <tr>
+                        <td>Cell 1</td>
+                        <td>Cell 2</td>
+                        <td>Cell 4</td>
+                        <td>Cell 3</td>
+                     </tr>
+        </table>
+   </body>
+</html>
+      
